@@ -24,9 +24,8 @@ public class Principal {
         nombre = teclado.nextLine();
         System.out.print("Introduce un mensaje para empezar la práctica de repositorios: ");
         mensaje = teclado.nextLine();
-        System.out.println( nombre+ " te manda un mensaje: "+mensaje); 
-        
-       //System.out.println("EMPEZAMOS PARTE CCUENTA"); 
+        // System.out.println( nombre+ " te manda un mensaje: "+mensaje); 
+         
        
         CCuenta c1 = new CCuenta("Rita La Cantaora","344-55-11",0,12.5);
         c1.ingresar(200);
